@@ -1,15 +1,14 @@
-// function Heading () {
-//     return (
-//         <div>
-//         <h1 className="text-center">Bharat Clock</h1>
-//         </div>
-//     )
-// }
-
-let Heading = () => {
-    return (
-        <h1 className="fw-bolder bg-dark text-white">Bharat Clock</h1>
-    )
-}
+const Heading = () => {
+  return (
+    <>
+      <h1 className="pulse">
+        <i className="fas fa-clock"></i> Bharat Clock
+      </h1>
+      <div className="flag">
+        <img src="/india.png" alt="India Flag" style={{ width: "60px" }} />
+      </div>
+    </>
+  );
+};
 
 export default Heading;

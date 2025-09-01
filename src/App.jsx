@@ -1,19 +1,18 @@
-
-// import './App.css'
-import Content from './Content'
-import Heading from './Heading'
-import Time_date from './Time_date'
+import Heading from "./Heading";
+import Content from "./Content";
+import Clock from "./Clock";
+import Footer from "./Footer";
+import "./App.css"; // CSS को अलग फाइल में डालेंगे
 
 function App() {
-  
-
   return (
-    <center>
+    <div className="container">
       <Heading />
       <Content />
-      <Time_date />
-    </center>
-  )
+      <Clock />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
